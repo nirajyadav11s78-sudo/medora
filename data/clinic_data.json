@@ -1,0 +1,143 @@
+{
+  "appointments": [
+    {
+      "id": "APT-1021",
+      "date": "2026-09-11",
+      "time": "10:00 AM",
+      "patientName": "Rahul Sharma",
+      "mobile": "+91 98112 34567",
+      "email": "rahul.s@example.com",
+      "service": "In-Clinic Consultation",
+      "consultationType": "In-clinic",
+      "reason": "High fever and persistent cough for 3 days",
+      "status": "Confirmed",
+      "bookingTime": "2026-09-10T08:15:22.148Z",
+      "syncedToSheets": true
+    },
+    {
+      "id": "APT-1022",
+      "date": "2026-09-11",
+      "time": "10:30 AM",
+      "patientName": "Priya Verma",
+      "mobile": "+91 98711 98765",
+      "service": "Follow-Up Consultation",
+      "consultationType": "In-clinic",
+      "reason": "Reviewing HbA1c test reports & BP adjustment",
+      "status": "Pending",
+      "bookingTime": "2026-09-10T20:15:22.148Z",
+      "syncedToSheets": true
+    },
+    {
+      "id": "APT-1023",
+      "date": "2026-09-11",
+      "time": "11:30 AM",
+      "patientName": "Amitabh Gupta",
+      "mobile": "+91 99100 12345",
+      "email": "amitabh.g@example.com",
+      "service": "Video Consultation (Telehealth)",
+      "consultationType": "Video consultation",
+      "reason": "Routine diabetic dietary consultation",
+      "status": "Confirmed",
+      "bookingTime": "2026-09-11T02:15:22.148Z",
+      "syncedToSheets": true
+    }
+  ],
+  "doctorProfile": {
+    "name": "Dr. Rajesh Sharma",
+    "title": "MBBS, MD (General Medicine)",
+    "qualification": "MBBS (AIIMS New Delhi), MD - General Medicine (MAMC)",
+    "specialization": "Senior Consultant Physician & Diabetologist",
+    "experienceYears": 15,
+    "registrationNumber": "DMC-48291 (Delhi Medical Council)",
+    "languages": [
+      "Hindi",
+      "English",
+      "Punjabi"
+    ],
+    "bio": "Dr. Rajesh Sharma brings over 15 years of distinguished clinical experience in internal medicine, diabetes management, hypertension, and acute infectious diseases. Known for his empathetic listening and evidence-based treatment plans, he believes in minimizing unnecessary medications and empowering patients through lifestyle modifications.",
+    "clinicName": "Arogya Medical Care & Diabetes Clinic",
+    "clinicAddress": "Shop 12, Ground Floor, Vardhman Medical Plaza, Sector 14, Rohini, New Delhi - 110085",
+    "landmark": "Near Rohini West Metro Station (Opposite City Park Hotel)",
+    "phone": "+91 98765 43210",
+    "whatsappNumber": "919876543210",
+    "whatsappDisplay": "+91 98765 43210",
+    "email": "dr.sharma.clinic@gmail.com",
+    "timingsDescription": "Mon – Sat: 10:00 AM – 01:30 PM & 05:30 PM – 08:30 PM (Sunday: Prior Emergency Only)",
+    "mapEmbedQuery": "Vardhman+Plaza+Sector+14+Rohini+Delhi",
+    "googleMapsUrl": "https://maps.google.com/?q=Sector+14+Rohini+New+Delhi",
+    "imageUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
+  },
+  "scheduleConfig": {
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "morningShift": {
+      "start": "10:00",
+      "end": "13:30"
+    },
+    "eveningShift": {
+      "start": "17:30",
+      "end": "20:30"
+    },
+    "slotDurationMinutes": 30,
+    "maxAppointmentsPerDay": 30,
+    "blockedDates": [],
+    "customBlockedSlots": {}
+  },
+  "services": [
+    {
+      "id": "consultation",
+      "title": "In-Clinic Consultation",
+      "duration": "25-30 mins",
+      "fee": 600,
+      "type": "In-clinic",
+      "popular": true,
+      "description": "Detailed medical history review, vital checks (BP, pulse, oxygen, glucose), systemic physical examination, diagnosis, and personalized prescription."
+    },
+    {
+      "id": "followup",
+      "title": "Follow-Up Consultation",
+      "duration": "15-20 mins",
+      "fee": 300,
+      "type": "Both",
+      "description": "Review of ongoing treatment response, evaluation of lab test reports, dosage titration, and recovery monitoring within 7 days of primary visit."
+    },
+    {
+      "id": "diabetes",
+      "title": "Diabetes & Hypertension Care",
+      "duration": "30 mins",
+      "fee": 800,
+      "type": "Both",
+      "popular": true,
+      "description": "Holistic metabolic assessment, HbA1c review, insulin adjustment, personalized carbohydrate guidance, and early organ damage screening."
+    },
+    {
+      "id": "preventive",
+      "title": "Preventive Health & Heart Screening",
+      "duration": "35 mins",
+      "fee": 1000,
+      "type": "In-clinic",
+      "description": "Cardiovascular risk profiling, lifestyle review, lipid & renal marker interpretation, ECG assessment, and tailored longevity recommendations."
+    },
+    {
+      "id": "video",
+      "title": "Video Consultation (Telehealth)",
+      "duration": "20 mins",
+      "fee": 500,
+      "type": "Video consultation",
+      "popular": true,
+      "description": "Secure video consultation for patients unable to visit the clinic. Includes a legally valid signed digital prescription shared instantly on WhatsApp."
+    }
+  ],
+  "sheetsConfig": {
+    "webhookUrl": "",
+    "sheetName": "Appointments",
+    "autoSync": true
+  },
+  "adminPassword": "niraj1234"
+}

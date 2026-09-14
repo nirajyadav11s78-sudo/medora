@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Rajesh Sharma Clinic",
+  "description": "Modern, mobile-first clinic website and instant WhatsApp appointment booking system for Dr. Rajesh Sharma (MBBS, MD - General Medicine) in Delhi, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
